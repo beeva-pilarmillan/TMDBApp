@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1212" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tape" translatesAutoresizingMaskIntoConstraints="NO" id="cIC-ev-f5X">
+                                <rect key="frame" x="157" y="243" width="60" height="60"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="TMDB App" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xuE-dv-ZGc">
+                                <rect key="frame" x="126" y="311" width="122" height="122"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="cIC-ev-f5X" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="141" id="13C-kA-Bt1"/>
+                            <constraint firstItem="xuE-dv-ZGc" firstAttribute="top" secondItem="cIC-ev-f5X" secondAttribute="bottom" constant="8" id="3IA-rI-O1f"/>
+                            <constraint firstItem="xuE-dv-ZGc" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="110" id="7PE-pD-dY6"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="xuE-dv-ZGc" secondAttribute="bottom" constant="234" id="CHt-hD-iOx"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="cIC-ev-f5X" secondAttribute="trailing" constant="142" id="QQN-aW-HeQ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="xuE-dv-ZGc" secondAttribute="trailing" constant="111" id="hMy-im-V0U"/>
+                            <constraint firstItem="xuE-dv-ZGc" firstAttribute="top" secondItem="cIC-ev-f5X" secondAttribute="bottom" constant="8" id="nVi-Ij-78U"/>
+                            <constraint firstItem="cIC-ev-f5X" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="223" id="q4K-1Y-cUM"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="tape" width="60" height="60"/>
+    </resources>
+</document>

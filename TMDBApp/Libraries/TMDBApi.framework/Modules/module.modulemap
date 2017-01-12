@@ -1,0 +1,10 @@
+framework module TMDBApi {
+  umbrella header "TMDBApi.h"
+
+  export *
+  module * { export * }
+}
+
+module TMDBApi.Swift {
+    header "TMDBApi-Swift.h"
+}
