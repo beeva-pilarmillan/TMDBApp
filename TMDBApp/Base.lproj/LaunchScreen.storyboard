@@ -22,11 +22,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tape" translatesAutoresizingMaskIntoConstraints="NO" id="cIC-ev-f5X">
-                                <rect key="frame" x="157" y="243" width="60" height="60"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="751" image="tape" translatesAutoresizingMaskIntoConstraints="NO" id="cIC-ev-f5X">
+                                <rect key="frame" x="87" y="189" width="200" height="200"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="TMDB App" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xuE-dv-ZGc">
-                                <rect key="frame" x="126" y="311" width="122" height="122"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="249" text="TMDB App" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xuE-dv-ZGc">
+                                <rect key="frame" x="84" y="397" width="207" height="68"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -34,14 +34,14 @@
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="cIC-ev-f5X" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="141" id="13C-kA-Bt1"/>
+                            <constraint firstItem="cIC-ev-f5X" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="71" id="13C-kA-Bt1"/>
                             <constraint firstItem="xuE-dv-ZGc" firstAttribute="top" secondItem="cIC-ev-f5X" secondAttribute="bottom" constant="8" id="3IA-rI-O1f"/>
-                            <constraint firstItem="xuE-dv-ZGc" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="110" id="7PE-pD-dY6"/>
-                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="xuE-dv-ZGc" secondAttribute="bottom" constant="234" id="CHt-hD-iOx"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="cIC-ev-f5X" secondAttribute="trailing" constant="142" id="QQN-aW-HeQ"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="xuE-dv-ZGc" secondAttribute="trailing" constant="111" id="hMy-im-V0U"/>
+                            <constraint firstItem="xuE-dv-ZGc" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="68" id="7PE-pD-dY6"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="xuE-dv-ZGc" secondAttribute="bottom" constant="202" id="CHt-hD-iOx"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="cIC-ev-f5X" secondAttribute="trailing" constant="72" id="QQN-aW-HeQ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="xuE-dv-ZGc" secondAttribute="trailing" constant="68" id="hMy-im-V0U"/>
                             <constraint firstItem="xuE-dv-ZGc" firstAttribute="top" secondItem="cIC-ev-f5X" secondAttribute="bottom" constant="8" id="nVi-Ij-78U"/>
-                            <constraint firstItem="cIC-ev-f5X" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="223" id="q4K-1Y-cUM"/>
+                            <constraint firstItem="cIC-ev-f5X" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="169" id="q4K-1Y-cUM"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -51,6 +51,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="tape" width="60" height="60"/>
+        <image name="tape" width="200" height="200"/>
     </resources>
 </document>

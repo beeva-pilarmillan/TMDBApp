@@ -2,6 +2,7 @@
   "images" : [
     {
       "idiom" : "universal",
+      "filename" : "tape.png",
       "scale" : "1x"
     },
     {
